@@ -6,9 +6,9 @@ import Quick_Sort
 import Radix_Sort
 import Shell_sort
 import timeit
-from Arrays import array
+from Tests.Time_test_rand_numbs_09 import Array_rand_numbs_09
 
-f1=array.rand_numbs_09_100
+f1=Array_rand_numbs_09.rand_numbs_09_1000000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()
