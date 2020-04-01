@@ -32,22 +32,22 @@ def build_rand_string(size, lenght):
         l.append(''.join(random.choice(string.ascii_letters) for _ in range(size)))
     return l
 
-# rand_string_50_100=build_rand_string(50,100)
-# rand_string_50_10000=build_rand_string(50,10000)
-# rand_string_50_1000000=build_rand_string(50,1000000)
-#
-# rand_string_500_100=build_rand_string(500,100)
-# rand_string_500_10000=build_rand_string(500,10000)
-# rand_string_500_1000000=build_rand_string(500,1000000)
+rand_string_50_100=build_rand_string(50,100)
+rand_string_50_10000=build_rand_string(50,10000)
+rand_string_50_1000000=build_rand_string(50,1000000)
 
-# rand_string_5000_100=build_rand_string(5000,100)
+rand_string_500_100=build_rand_string(500,100)
+rand_string_500_10000=build_rand_string(500,10000)
+rand_string_500_1000000=build_rand_string(500,1000000)
+
+rand_string_5000_100=build_rand_string(5000,100)
 rand_string_5000_10000=build_rand_string(5000,10000)
-# rand_string_5000_1000000=build_rand_string(5000,1000000)
+rand_string_5000_1000000=build_rand_string(5000,1000000)
 
-# rand_string_50000_100=build_rand_string(50000,100)
-# rand_string_50000_10000=build_rand_string(50000,10000)
-# rand_string_50000_1000000=build_rand_string(50000,1000000)
-#
-# rand_string_500000_100=build_rand_string(500000,100)
-# rand_string_500000_10000=build_rand_string(500000,10000)
-# rand_string_500000_1000000=build_rand_string(500000,1000000)
+rand_string_50000_100=build_rand_string(50000,100)
+rand_string_50000_10000=build_rand_string(50000,10000)
+rand_string_50000_1000000=build_rand_string(50000,1000000)
+
+rand_string_500000_100=build_rand_string(500000,100)
+rand_string_500000_10000=build_rand_string(500000,10000)
+rand_string_500000_1000000=build_rand_string(500000,1000000)
