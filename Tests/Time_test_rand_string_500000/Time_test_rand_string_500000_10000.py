@@ -4,7 +4,7 @@ import Comb_Sort
 import Heap_Sort
 import Quick_Sort
 import Radix_Sort
-import Shell_sort
+import Shell_Sort
 import timeit
 from Tests.Time_test_rand_string_500000 import Array_rand_string_500000
 
@@ -41,6 +41,6 @@ print(f5,"\n")
 # print("Radix sort ",t.timeit(number = 1))
 # print(f6, "\n")
 
-t=timeit.Timer(lambda : Shell_sort.shell(f7))
+t=timeit.Timer(lambda : Shell_Sort.shell(f7))
 print("Shell sort ",t.timeit(number = 1))
 print(f7, "\n")

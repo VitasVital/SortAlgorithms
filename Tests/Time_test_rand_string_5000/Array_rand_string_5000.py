@@ -8,5 +8,5 @@ def build_rand_string(size, lenght):
     return l
 
 rand_string_5000_100=build_rand_string(5000,100)
-rand_string_5000_1000=build_rand_string(5000,1000)
 rand_string_5000_10000=build_rand_string(5000,10000)
+#rand_string_5000_1000000=build_rand_string(5000,1000000)

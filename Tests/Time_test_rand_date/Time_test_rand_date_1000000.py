@@ -4,7 +4,7 @@ import Comb_Sort
 import Heap_Sort
 import Quick_Sort
 import Radix_Sort
-import Shell_sort
+import Shell_Sort
 import Bubble_Sort
 import Insertion_Sort
 import Shaker_Sort
@@ -47,7 +47,7 @@ print("Quick sort ",t.timeit(number = 1))
 # print("Radix sort ",t.timeit(number = 1))
 # print(f6, "\n")
 
-t=timeit.Timer(lambda : Shell_sort.shell(f7))
+t=timeit.Timer(lambda : Shell_Sort.shell(f7))
 print("Shell sort ",t.timeit(number = 1))
 #print(f7, "\n")
 
