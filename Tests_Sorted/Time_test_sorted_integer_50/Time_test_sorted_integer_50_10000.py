@@ -9,9 +9,9 @@ import Bubble_Sort
 import Insertion_Sort
 import Shaker_Sort
 import timeit
-from Tests.Time_test_rand_integer_50 import Array_rand_integer_50
+from Tests_Sorted.Time_test_sorted_integer_50 import Array_sorted_integer_50
 
-f1=Array_rand_integer_50.rand_integer_50_10000
+f1=Array_sorted_integer_50.sorted_integer_50_10000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()

@@ -11,7 +11,7 @@ import Shaker_Sort
 import timeit
 from Tests_Sorted.Time_test_sorted_date import Array_sorted_date
 
-f1=Array_sorted_date.rand_date_100
+f1=Array_sorted_date.sorted_date_100
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()

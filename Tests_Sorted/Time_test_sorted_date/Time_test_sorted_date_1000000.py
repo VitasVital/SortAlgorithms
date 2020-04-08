@@ -9,9 +9,9 @@ import Bubble_Sort
 import Insertion_Sort
 import Shaker_Sort
 import timeit
-from Tests.Time_test_rand_date import Array_rand_date
+from Tests_Sorted.Time_test_sorted_date import Array_sorted_date
 
-f1=Array_rand_date.rand_date_1000000
+f1=Array_sorted_date.sorted_date_1000000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()

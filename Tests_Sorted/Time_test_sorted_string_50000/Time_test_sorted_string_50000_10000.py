@@ -9,9 +9,9 @@ import Bubble_Sort
 import Insertion_Sort
 import Shaker_Sort
 import timeit
-from Tests.Time_test_rand_string_50000 import Array_rand_string_50000
+from Tests_Sorted.Time_test_sorted_string_50000 import Array_sorted_string_50000
 
-f1=Array_rand_string_50000.rand_string_50000_10000
+f1=Array_sorted_string_50000.sorted_string_50000_10000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()

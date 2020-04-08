@@ -9,9 +9,9 @@ import Bubble_Sort
 import Insertion_Sort
 import Shaker_Sort
 import timeit
-from Tests.Time_test_rand_numbs_09 import Array_rand_numbs_09
+from Tests_Sorted.Time_test_sorted_numbs_09 import Array_sorted_numbs_09
 
-f1=Array_rand_numbs_09.rand_numbs_09_1000000
+f1=Array_sorted_numbs_09.sorted_numbs_09_1000000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()
@@ -22,7 +22,7 @@ f8=f1.copy()
 f9=f1.copy()
 f10=f1.copy()
 
-print("Random array\n",f1,"\n")
+#print("Random array\n",f1,"\n")
 t=timeit.Timer(lambda : Python_Sort.python_sort(f1))
 print("Python sort ",t.timeit(number = 1))
 #print(f1,"\n")

@@ -6,9 +6,9 @@ import Quick_Sort
 import Radix_Sort
 import Shell_Sort
 import timeit
-from Tests.Time_test_rand_string_500000 import Array_rand_string_500000
+from Tests_Sorted.Time_test_sorted_string_500000 import Array_sorted_string_500000
 
-f1=Array_rand_string_500000.rand_string_500000_1000
+f1=Array_sorted_string_500000.sorted_string_500000_1000000
 f2=f1.copy()
 f3=f1.copy()
 f4=f1.copy()
