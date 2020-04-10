@@ -51,9 +51,9 @@ t=timeit.Timer(lambda : Shell_Sort.shell(f7))
 print("Shell sort ",t.timeit(number = 1))
 #print(f7, "\n")
 
-t=timeit.Timer(lambda : Bubble_Sort.bubble(f8))
-print("Bubble sort ",t.timeit(number = 1))
-#print(f7, "\n")
+# t=timeit.Timer(lambda : Bubble_Sort.bubble(f8))
+# print("Bubble sort ",t.timeit(number = 1))
+# #print(f7, "\n")
 
 t=timeit.Timer(lambda : Insertion_Sort.insertion(f9))
 print("Insertion sort ",t.timeit(number = 1))
