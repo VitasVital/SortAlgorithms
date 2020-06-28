@@ -22,7 +22,7 @@ f8=f1.copy()
 f9=f1.copy()
 f10=f1.copy()
 
-print("Random array\n",f1,"\n")
+#print("Random array\n",f1,"\n")
 t=timeit.Timer(lambda : Python_Sort.python_sort(f1))
 print("Python sort ",t.timeit(number = 1))
 #print(f1,"\n")
